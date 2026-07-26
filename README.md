@@ -4,9 +4,6 @@ Redesign completo do portfólio, em React (Vite), com uma identidade visual auto
 
 ## Conceito visual — "Estúdio Editorial"
 
-Em vez do clichê "app de dev" (fundo escuro + gradiente azul/roxo), a proposta aqui é a de
-um portfólio editorial, como o de um estúdio de design/agência:
-
 - **Paleta**: grafite quente quase preto (`#0e0e10`) com **um único acento**, cobre (`#c98a4b`)
   — usado com moderação, nunca em excesso.
 - **Tipografia com hierarquia de voz**: serifada **Fraunces** para nome, títulos e citação
@@ -20,23 +17,6 @@ um portfólio editorial, como o de um estúdio de design/agência:
   descrição e tags, com a linha inteira reagindo ao hover.
 - **Contato dividido**: informações e redes sociais à esquerda, formulário minimalista
   (inputs com apenas linha inferior, sem caixas) à direita.
-
-## Como rodar
-
-```bash
-npm install
-npm run dev
-```
-
-Abra o endereço mostrado no terminal (normalmente `http://localhost:5173`).
-
-Para gerar a versão de produção:
-
-```bash
-npm run build
-```
-
-Os arquivos ficam em `dist/`, prontos para hospedar em qualquer lugar (Vercel, Netlify, GitHub Pages...).
 
 ## Estrutura
 
@@ -56,18 +36,4 @@ src/components/
   Footer.jsx + .css
   Icons.jsx                            # ícones SVG inline, sem dependências
 src/assets/perfil.png
-```
-
-## Personalizar
-
-- **Textos e links**: tudo em `src/data.js` (perfil, projetos, habilidades, contato, redes).
-- **Cores/fontes**: variáveis no topo de `src/index.css` — troque `--accent` para mudar a cor
-  de destaque em todo o site de uma vez.
-- **Currículo**: coloque o PDF em `public/curriculo.pdf` (crie a pasta `public/` na raiz).
-- **Formulário de contato**: aponta para `formsubmit.co`, o mesmo do site original. Na primeira
-  mensagem enviada, o FormSubmit pede uma confirmação por email — é normal.
-
-## Publicar
-
-Arraste a pasta `dist/` (depois de `npm run build`) para a [Netlify Drop](https://app.netlify.com/drop),
-ou conecte o repositório à Vercel/Netlify para deploy automático a cada push.
+`
