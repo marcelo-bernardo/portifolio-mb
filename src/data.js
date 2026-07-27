@@ -10,7 +10,7 @@ export const profile = {
   facts: [
     { label: 'Formação', value: 'Téc. em Informática (IFAM) · TI (PUC / UFMS)' },
     { label: 'Foco atual', value: 'Desenvolvimento web & automações' },
-    { label: 'Baseado em', value: 'Manaus, AM — Brasil' },
+    { label: 'Baseado em', value: 'Curitiba, PR— Brasil' },
     { label: 'Disponibilidade', value: 'Aberto a novos projetos' },
   ],
   cvUrl: '/curriculo.pdf',
@@ -40,6 +40,29 @@ export const projects = [
     stack: ['Python', 'Pandas'],
     url: 'https://github.com/marcelo-bernardo/analise_dados-meterologicos',
   },
+
+  {
+    id: '04',
+    title: 'ATEND+',
+    description: 'Projeto atend+ enactus UFMS EGEAD Gestão de usuários externos',
+    stack: ['React Native', 'CSS', 'JavaScript', 'Node.js'],
+    url: 'https://github.com/marcelo-bernardo/ATEND-'
+  },
+  {
+    id: '05',
+    title: 'Pokedex',
+    description: 'Projeti de lista de pokemons com ReactJS, consumindo a API PokeAPI',
+    stack: ['ReactJS', 'CSS', 'JavaScript'],
+    url: 'https://github.com/marcelo-bernardo/Pokedex'
+  },
+
+  {
+    id: '06',
+    title: 'Series Journal',
+    description: 'Projeto de lista de series com ReactJS, consumindo a API TVMaze',
+    stack: ['ReactJS', 'CSS', 'JavaScript'],
+    url: 'https://github.com/marcelo-bernardo/Series-Journal'
+  }
 ];
 
 export const skillGroups = [
@@ -49,11 +72,11 @@ export const skillGroups = [
   },
   {
     title: 'Ferramentas',
-    items: ['Git & GitHub', 'MySQL', 'Linux', 'VS Code', 'WordPress'],
+    items: ['Git & GitHub', 'MySQL', 'Linux', 'VS Code', 'WordPress', 'Figma', 'Canva', 'Postman', 'Docker'],
   },
   {
     title: 'Frameworks',
-    items: ['Bootstrap', 'Pico CSS', 'Pandas', 'Laravel'],
+    items: ['Bootstrap', 'Pico CSS', 'Pandas', 'Laravel', 'ReactJS', 'React Native', 'Node.js'],
   },
 ];
 
