@@ -62,6 +62,13 @@ export const projects = [
     description: 'Projeto de lista de series com ReactJS, consumindo a API TVMaze',
     stack: ['ReactJS', 'CSS', 'JavaScript'],
     url: 'https://github.com/marcelo-bernardo/Series-Journal'
+  },
+  {
+    id: '07',
+    title: 'Sistema de Gestão de Planos de Telefonia',
+    description: 'Projeto de lista de series com ReactJS, consumindo a API TVMaze',
+    stack: ['Vite', 'CSS', 'JavaScript', 'node.js', 'Express'],
+    url: 'https://github.com/marcelo-bernardo/Sistema-de-gest-o-'
   }
 ];
 
